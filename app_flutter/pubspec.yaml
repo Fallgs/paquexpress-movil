@@ -46,6 +46,18 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
 
+  # El resto de librerías de tu aplicación:
+  dio: ^5.0.0               # Para peticiones HTTP (conexión con FastAPI)
+  flutter_secure_storage: ^9.0.0 # Para guardar el JWT de forma segura (seguridad)
+  geolocator: ^11.0.0       # Para obtener la ubicación GPS (sensor GPS)
+  image_picker: ^1.0.0      # Para usar la cámara (sensor Cámara)
+  # Opcional, pero útil para la interfaz:
+  provider: ^6.0.0          # Para manejo de estado (si decides usarlo después)4
+  url_launcher: ^6.2.5
+  
+  # La sección de iconos también debe estar:
+  cupertino_icons: ^1.0.2
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
